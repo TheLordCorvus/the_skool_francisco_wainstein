@@ -1,5 +1,7 @@
 DROP TABLE IF EXISTS application_round;
 
-LOAD application_round resultat-ansokningsomgang-2025.csv NEW
+SET LOADFORMAT DELIMITED DELIMITER ';'
+
+LOAD application_round Ansokningar.csv NEW
 
 EXIT
