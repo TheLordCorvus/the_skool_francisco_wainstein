@@ -19,6 +19,9 @@ för stakeholders av The Skool.
 Images:
 Screenshots över arbetet som assets
 
+## Uppgift 1
+Grundläggande EDA för att svara på frågor a-i om bl.a. ansökingar per beslut, område, län
+![fundamental_EDA.sql](sql_scripts/1_fundamental_EDA.sql)
 
 
 
