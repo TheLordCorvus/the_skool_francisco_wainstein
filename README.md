@@ -24,7 +24,7 @@ Setup av Repo, .gitignore, uppladdning av xlsx till csv, och skapelse av sql scr
 
 :link:[Github Repository](https://github.com/TheLordCorvus/the_skool_francisco_wainstein)
 
-:files:[SQL script Directory](/sql_scripts)
+:file_folder:[SQL script Directory](/sql_scripts)
 
 
 ## Uppgift 1
@@ -50,7 +50,7 @@ Utifrån stakeholder intervju skapas en ny script med 3-5 nya frågor. Valt att 
 
 All dokumentation finns tillgänglit här, men med detta följer en mapp med screenshots på arbetets gång som visar både query och resultat.
 
-:files:[Screenshots](/images)
+:file_folder:[Screenshots](/images)
 
 Uppgift 6
 
