@@ -44,8 +44,8 @@ SELECT
     COUNT(*) AS beviljade
 FROM application_round
 WHERE utbildningsomrade = 'Data/IT' AND beslut = 'Beviljad'
-GROUP BY utbildningsnamn;
-
+GROUP BY utbildningsnamn
+ORDER BY beviljade DESC;
 
 
 -- Antal AVSLAGNA ansökningar per utbildningsnamn inom Data/IT
@@ -55,28 +55,52 @@ SELECT
     COUNT(*) AS avslagna
 FROM application_round
 WHERE utbildningsomrade = 'Data/IT' AND beslut = 'Avslag'
-GROUP BY utbildningsnamn;
-
+GROUP BY utbildningsnamn
+ORDER BY avslagna DESC;
 
 
 -- Antal BEVILJADE ansökningar per utbildningsanordnare administrativ enhet & utbildningsnamn, inom Data/IT
 
- 
+SELECT
+    anordnare_admin_enhet,
+    utbildningsnamn,
+    COUNT(*) AS beviljade
+FROM application_round
+WHERE utbildningsomrade = 'Data/IT' AND beslut = 'Beviljad'
+GROUP BY anordnare_admin_enhet, utbildningsnamn
+ORDER BY anordnare_admin_enhet, beviljade DESC;
     
 
 
 -- Topp 5 län efter antal beviljade ansökningar
 
+SELECT
+    lan,
+    COUNT(*) AS beviljade
+FROM application_round
+WHERE beslut = 'Beviljad'
+GROUP BY lan
+ORDER BY beviljade DESC
+FETCH FIRST 5 ROWS ONLY;
 
 
 
 -- Andel distans och andel bundna utbildningar inom respektive utbildningsområde
 
-
+SELECT
+    utbildningsomrade,
+    ROUND(100 * SUM(CASE WHEN studieform = 'Distans' THEN 1 else 0 END) / COUNT(*), 1) AS andel_distans,
+    ROUND(100 * SUM(CASE WHEN studieform = 'Bunden' THEN 1 else 0 END) / COUNT(*), 1) AS andel_bunden
+FROM application_round
+GROUP BY  utbildningsomrade
+ORDER BY utbildningsomrade;
 
 -- Antal utbildningar som innehåller ordet AI
 
-
+SELECT
+    COUNT(DISTINCT utbildningsnamn) AS AI_utbildningar
+FROM application_round
+WHERE REGEXP_LIKE(utbildningsnamn, '(^|[^[:alpha:]])AI([^[:alpha:]]|$)', 'c');
 
 
 
