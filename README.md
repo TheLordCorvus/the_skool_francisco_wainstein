@@ -8,13 +8,25 @@ Detta arbete gör en analys av MYH:s ansökningsresultat för att hjälpa The Sk
 
 ## Innehåll
 Mappar / Directories:
+
 sql_scripts:
+```` 
 Innehåller de scripter skapade för att få filtrera och få fram data
-
+```
 Docs: 
+```
 Innehåller textfil med de relevanta filtreringar som kan vara mer intressanta för stakeholders av The Skool.
-
+```
 Images: 
+```
 Screenshots över arbetet som assets
+```
 
+
+
+
+## LLM
+- Användning av LLM - Claude AI för att fixa några problem som uppstod vid setup.
+
+## Källor
 
