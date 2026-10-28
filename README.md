@@ -36,7 +36,7 @@ Grundläggande EDA för att svara på frågor a-i om bl.a. ansökingar per beslu
 ## Uppgift 2
 
 Under intervju med stakeholders The Skool togs antekningar för att få fram listan med det som intressenten söker efter och därmed skapa en stakeholder requirements. 
-Mapp med listan finns i :files:[Documents](/Documents)
+Mapp med listan finns i :file_folder:[Documents](/Documents)
 
 :memo:[Stakeholder Requirements](/Documents/02_stakeholder_requirements.md)
 
