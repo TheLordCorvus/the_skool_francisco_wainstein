@@ -42,7 +42,9 @@ Mapp med listan finns i :file_folder:[Documents](/Documents)
 
 ## Uppgift 3
 
-Utifrån stakeholder intervju skapas en ny script med 3-5 nya frågor. Valt att använda från stakeholder requirements för dessa.
+Utifrån stakeholder intervju skapas en ny script med 3-6 nya frågor. Valt att använda från stakeholder requirements för dessa.
+
+:scroll:[datadriven decision](sql_scripts/3_datadrivna_beslut)
 
 ## Uppgift 4
 
