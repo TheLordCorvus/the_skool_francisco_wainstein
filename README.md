@@ -19,14 +19,44 @@ för stakeholders av The Skool.
 Images:
 Screenshots över arbetet som assets
 
+## Uppgift 0
+Setup av Repo, .gitignore, uppladdning av xlsx till csv, och skapelse av sql script mapp. CSV filen finns i script mappen.
+
+![Github Repository](https://github.com/TheLordCorvus/the_skool_francisco_wainstein)
+
+![SQL script Directory](/sql_scripts)
+
+
 ## Uppgift 1
+
 Grundläggande EDA för att svara på frågor a-i om bl.a. ansökingar per beslut, område, län
+
 ![fundamental_EDA.sql](sql_scripts/1_fundamental_EDA.sql)
 
+## Uppgift 2
 
+Under intervju med stakeholders The Skool togs antekningar för att få fram listan med det som intressenten söker efter och därmed skapa en stakeholder requirements. Mapp med listan finns i ![Documents](/Documents)
+
+![Stakeholder Requirements](/Documents/02_stakeholder_requirements.md)
+
+## Uppgift 3
+
+Utifrån stakeholder intervju skapas en ny script med 3-5 nya frågor. Valt att använda från stakeholder requirements för dessa.
+
+## Uppgift 4
+
+## Uppgift 5
+
+All dokumentation finns tillgänglit här, men med detta följer en mapp med screenshots på arbetets gång som visar både query och resultat.
+
+![Screenshots](/images)
+
+Uppgift 6
 
 ## LLM
 - Användning av LLM - Claude AI för att fixa några problem som uppstod vid setup.
+- 
 
 ## Källor
+
 
