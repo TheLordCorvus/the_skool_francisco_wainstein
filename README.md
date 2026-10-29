@@ -58,7 +58,7 @@ Uppgift 6
 
 ## LLM
 - Användning av LLM - Claude AI för att fixa några problem som uppstod vid setup.
-- 
+- Användning av LLM - Claude AI för felsökning och justering av scripts.
 
 ## Källor
 
