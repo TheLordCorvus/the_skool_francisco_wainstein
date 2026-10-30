@@ -8,7 +8,7 @@ SELECT * FROM application_round
 FETCH FIRST 5 ROWS ONLY;
 
 
--- Antal ansökningar per utbildningsområde, sorterat på flest ansökningar
+-- a) Antal ansökningar per utbildningsområde, sorterat på flest ansökningar
 
 SELECT 
     utbildningsomrade,
@@ -17,7 +17,7 @@ FROM application_round
 GROUP BY utbildningsomrade
 ORDER BY antal DESC;
 
--- Antal BEVILJADE ansökningar per utbildningsområde
+-- b) Antal BEVILJADE ansökningar per utbildningsområde
 
 SELECT 
     utbildningsomrade,
@@ -27,7 +27,7 @@ WHERE beslut = 'Beviljad'
 GROUP BY utbildningsomrade;
 
 
--- Antal AVSLAGNA ansökningar per utbildningsområde
+-- c) Antal AVSLAGNA ansökningar per utbildningsområde
 
 SELECT
     utbildningsomrade,
@@ -37,7 +37,7 @@ WHERE beslut = 'Avslag'
 GROUP BY utbildningsomrade;
 
 
--- Antal BEVILJADE ansökningar per utbildningsnamn inom Data/IT
+-- d) Antal BEVILJADE ansökningar per utbildningsnamn inom Data/IT
 
 SELECT 
     utbildningsnamn,
@@ -48,7 +48,7 @@ GROUP BY utbildningsnamn
 ORDER BY beviljade DESC;
 
 
--- Antal AVSLAGNA ansökningar per utbildningsnamn inom Data/IT
+-- e) Antal AVSLAGNA ansökningar per utbildningsnamn inom Data/IT
 
 SELECT
     utbildningsnamn,
@@ -59,7 +59,7 @@ GROUP BY utbildningsnamn
 ORDER BY avslagna DESC;
 
 
--- Antal BEVILJADE ansökningar per utbildningsanordnare administrativ enhet & utbildningsnamn, inom Data/IT
+-- f) Antal BEVILJADE ansökningar per utbildningsanordnare administrativ enhet & utbildningsnamn, inom Data/IT
 
 SELECT
     anordnare_admin_enhet,
@@ -72,7 +72,7 @@ ORDER BY anordnare_admin_enhet, beviljade DESC;
     
 
 
--- Topp 5 län efter antal beviljade ansökningar
+-- g) Topp 5 län efter antal beviljade ansökningar
 
 SELECT
     lan,
@@ -85,7 +85,7 @@ FETCH FIRST 5 ROWS ONLY;
 
 
 
--- Andel distans och andel bundna utbildningar inom respektive utbildningsområde
+-- h) Andel distans och andel bundna utbildningar inom respektive utbildningsområde
 
 SELECT
     utbildningsomrade,
@@ -95,7 +95,7 @@ FROM application_round
 GROUP BY  utbildningsomrade
 ORDER BY utbildningsomrade;
 
--- Antal utbildningar som innehåller ordet AI
+-- i) Antal utbildningar som innehåller ordet AI
 
 SELECT
     COUNT(DISTINCT utbildningsnamn) AS AI_utbildningar

@@ -48,6 +48,16 @@ Utifrån stakeholder intervju skapas en ny script med 3-6 nya frågor. Valt att 
 
 ## Uppgift 4
 
+Till uppgift 4 skapades tre nya sql scripter.
+
+- Create_table :scroll:[4a_create_table.sql](sql_scripts/4a_create_tables.sql)
+- Insert_data ;scroll:[4b_Insert_data.sql](sql_scripts/4b_insert_data.sql)
+- Queries :scroll:[4c_queries.sql](sql_scripts/4c_queries.sql)
+
+Efter skapandet och inläggning av data från application_round --> nya datamodellen, testades
+scripten med samma frågor från uppgift 1 och gav ut samma resultat.
+
+
 ## Uppgift 5
 
 All dokumentation finns tillgänglit här, men med detta följer en mapp med screenshots på arbetets gång som visar både query och resultat.
@@ -62,4 +72,4 @@ Uppgift 6
 
 ## Källor
 
-
+:link:[Myh - resultat för senaste ansökningsomgång](https://www.myh.se/yrkeshogskolan/resultat-ansokningsomgangar/resultat-for-program)
