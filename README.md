@@ -62,7 +62,7 @@ scripten med samma frågor från uppgift 1 och gav ut samma resultat.
 
 All dokumentation finns tillgänglit här, men med detta följer en mapp med screenshots på arbetets gång som visar både query och resultat.
 
-:file_folder:[Screenshots](/images)
+:file_folder:[Screenshots](/Images)
 
 Uppgift 6
 
