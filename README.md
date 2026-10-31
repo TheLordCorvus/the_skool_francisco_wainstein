@@ -69,7 +69,7 @@ Uppgift 6
 
 :link:[Youtube video presentation](https://youtu.be/HyP2knccc0c)
 
-:bar_chart:[PowerPoint presentation](DBAD26-SQL1-Francisco_Wainstein_Labb_The_Skool.pdf)
+:bar_chart:[PowerPoint presentation](/DBAD26-SQL1-Francisco_Wainstein_Labb_The_Skool.pdf)
 
 
 ## LLM
