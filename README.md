@@ -64,7 +64,13 @@ All dokumentation finns tillgänglit här, men med detta följer en mapp med scr
 
 :file_folder:[Screenshots](/Images)
 
+
 Uppgift 6
+
+:link:[Youtube video presentation](https://youtu.be/HyP2knccc0c)
+
+:bar_chart:[PowerPoint presentation](DBAD26-SQL1-Francisco_Wainstein_Labb_The_Skool.pdf)
+
 
 ## LLM
 - Användning av LLM - Claude AI för att fixa några problem som uppstod vid setup.
